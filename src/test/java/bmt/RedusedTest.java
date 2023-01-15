@@ -9,7 +9,7 @@ public class RedusedTest
     @Test
     public void testReduseMethod_1(){
         String pages = "";
-        assertEquals("", Reduser.Reduse(pages));
+        assertEquals("Error: incorrected data", Reduser.Reduse(pages));
     }
 
      @Test
